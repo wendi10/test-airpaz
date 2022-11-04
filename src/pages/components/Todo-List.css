@@ -1,0 +1,42 @@
+.task {
+    display: flex;
+    padding: 0.5rem 1rem;
+}
+
+.task .description{
+    width: 60%;
+    padding: 0.5rem;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    text-align: left;
+    margin-right: 0.5rem;
+    word-wrap: break-word;
+}
+
+.task .changePosition{
+    width: 12%;
+    padding: 0.5rem;
+    background-color: aqua;
+    border: 0 solid black;
+    border-radius: 4px;
+    color: black;
+    font-size: 0.75rem;
+    text-align: center;
+    margin-right: 0.25rem;
+    cursor: pointer;
+}
+
+.task .btn-delete{
+    width: 8%;
+    padding: 0.4rem;
+    background-color: red;
+    border: 0 solid black;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 0.25rem;
+    cursor: pointer;
+}
